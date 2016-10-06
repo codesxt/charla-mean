@@ -1,9 +1,0 @@
-<tr ng-repeat="attendee in attendees">
-  <td>{{attendee.name}}</td>
-  <td>{{attendee.email}}</td>
-  <td>
-    <button class="btn btn-default btn-danger" ng-click="removeAttendee(attendee._id)">
-      <span class="glyphicon glyphicon-trash"></span>
-    </button>
-  </td>
-</tr>
