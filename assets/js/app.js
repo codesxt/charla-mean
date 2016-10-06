@@ -1,5 +1,6 @@
 angular.module('app', [
-  'ngRoute'
+  'ngRoute',
+  'ngAnimate'
 ]);
 
 angular.module('app')
